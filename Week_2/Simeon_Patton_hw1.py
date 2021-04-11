@@ -3,9 +3,19 @@
 ## April 10, 2021
 
 ## Simple python program to determine if a users inputted year is a leap year.
+##    ---This Python file can be run using version 3.9.0 on a Windows 10 computer.---
+##            In order to run the file;
+##                -Place the file within the folder that you would like
+##                -Open a command Prompt and navigate to the folder that the file is stored in
+##                -Type "python Simeon_Patton_hw1.py"
+##                -Follow on screen prompts for user input.
+
 
 ## Idea behind modulus  coding inspored by ourcodeworld.com "How to determine 
 ## whether a year is a leap year or not in programming",  found at www.shorturl.at/pDJU1
+
+
+
 
 
 ## Import os to get the size of the display
