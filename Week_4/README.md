@@ -21,4 +21,4 @@ Requirements
 Required Flow-chart 
 
 
-        ![Leap year flow chart jpeg](Leap_year_flowchart.JPG)
+        ![Leap year flow chart jpeg](/Leap_year_flowchart.JPG)
