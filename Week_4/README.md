@@ -19,11 +19,7 @@ Requirements
 
 
 Required Flow-chart 
-**As you can see below, I was only able to get the image embedded in the md file by the use of HTML paragraph tags**
-**I have left the md format in line after the embedded image in order to show that it was attempted.**
 
-<p>
-    <img src="https://raw.githubusercontent.com/pattons-OSU/CS362_Homework/master/Week_4/Leap_year_flowchart.JPG"/>
-</p>
+
 
 ![Leap year flow chart jpeg](https://raw.githubusercontent.com/pattons-OSU/CS362_Homework/master/Week_4/Leap_year_flowchart.JPG)
