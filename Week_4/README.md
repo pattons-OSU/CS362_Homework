@@ -19,4 +19,6 @@ Requirements
 
 
 Required Flow-chart 
-        ![Image description](https://github.com/pattons-OSU/CS362_Homework/blob/master/Week_4/Leap_year_flowchart.JPG)
+
+
+        ![Leap year program flow chart](https://github.com/pattons-OSU/CS362_Homework/blob/master/Week_4/Leap_year_flowchart.JPG)
