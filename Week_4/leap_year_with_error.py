@@ -28,8 +28,15 @@ print("-" * display_size[0])
 
 
 print("")
-in_year = input('Please enter the year that you would like to check: ')
-in_year = int(in_year)
+while True:
+    try:
+        in_year = input('Please enter the year that you would like to check: ')
+        in_year = int(in_year)
+        break
+    except ValueError:
+        print("")
+        print(f"'{in_year}' is not a valid year, please enter a year as an integer.")
+        print("")
 print("")
 
 ## A leap year is a year that is divisible (with no remainder) by 4 (mod 4)
