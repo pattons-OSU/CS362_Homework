@@ -14,7 +14,8 @@
 ## Idea behind modulus  coding inspored by ourcodeworld.com "How to determine 
 ## whether a year is a leap year or not in programming",  found at www.shorturl.at/pDJU1
 
-
+##Error handling is in the form of a ValueError handling found on line 31. This checks to make sure
+##that the user inputs a year in the valid format.
 
 
 
