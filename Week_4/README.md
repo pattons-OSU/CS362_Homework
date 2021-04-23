@@ -20,5 +20,7 @@ Requirements
 
 Required Flow-chart 
 
-
-        ![Leap year flow chart jpeg](/Leap_year_flowchart.JPG)
+<p>
+    <img src="/Leap_year_flowchart.JPG"/>
+</p>
+        ![Leap year flow chart jpeg]()
