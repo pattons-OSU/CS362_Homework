@@ -21,6 +21,6 @@ Requirements
 Required Flow-chart 
 
 <p>
-    <img src="/Leap_year_flowchart.JPG"/>
+    <img src="https://raw.githubusercontent.com/pattons-OSU/CS362_Homework/master/Week_4/Leap_year_flowchart.JPG"/>
 </p>
         ![Leap year flow chart jpeg](https://raw.githubusercontent.com/pattons-OSU/CS362_Homework/master/Week_4/Leap_year_flowchart.JPG)
