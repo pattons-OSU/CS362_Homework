@@ -1,13 +1,13 @@
 ## Simeon Patton
-## CS362 HW1 Question 4
-## April 10, 2021
+## CS362 HW3 Question 3
+## April 23, 2021
 
 ## Simple python program to determine if a users inputted year is a leap year.
 ##    ---This Python file can be run using version 3.9.0 on a Windows 10 computer.---
 ##            In order to run the file;
 ##                -Place the file within the folder that you would like
 ##                -Open a command Prompt and navigate to the folder that the file is stored in
-##                -Type "python Simeon_Patton_hw1.py"
+##                -Type "python leap_year_no_error.py"
 ##                -Follow on screen prompts for user input.
 
 
