@@ -9,7 +9,7 @@ Psudo-Code
     flow chart. This chart can be seen within the project repo or on the documentation for the 
     assignment that was turned in on canvas.
 
-    *Idea behind modulus coding inspired by ourcodeworld.com "How to determine whether a
+    Idea behind modulus coding inspired by ourcodeworld.com "How to determine whether a
     year is a leap year or not in programming",  found at www.shorturl.at/pDJU1
 
 Requirements
@@ -21,4 +21,4 @@ Requirements
 Required Flow-chart 
 
 
-        ![Image description](https://github.com/pattons-OSU/CS362_Homework/blob/master/Week_4/Leap_year_flowchart.JPG)
+        ![Leap year flow chart jpeg](https://github.com/pattons-OSU/CS362_Homework/blob/01265ea373972430aea7c13d3e7a836d436f8c19/Week_4/Leap_year_flowchart.JPG?raw=true)
