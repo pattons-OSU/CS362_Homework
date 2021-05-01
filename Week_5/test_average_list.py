@@ -5,12 +5,21 @@ import math
 import unittest
 
 class testCaseVolume(unittest.TestCase):
-    ## This test should pass, making sure that the list is what we expect it to be
     
+    ## This test should pass, making sure that the list is what we expect it to be
     def test_list_items(self):
         _list = average_list.user_list()
         expected = [9, 5, 6, 93]
         self.assertEqual(_list, expected)
+
+    ## This test to make sure that the list is not empty
+    def test_empty(self):
+        self.assertTrue(average_list.user_list())
+    ##now, testing to make sure that the list is populated, should FAIL
+    def test_populated(self):
+        self.assertFalse(average_list.user_list())
+
+    
 
 if __name__ == '__main__':
     unittest.main()
