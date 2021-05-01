@@ -20,7 +20,14 @@ class testCaseVolume(unittest.TestCase):
         self.assertFalse(average_list.user_list())
 
     
+    ## Testing average function
+    def test_average(self):
+        number_list = average_list.user_list()
+        calculated_average = average_list.average_of_list(number_list)
+        expected_average = 28.25
+        self.assertEqual(expected_average, calculated_average)
+
+    
 
 if __name__ == '__main__':
     unittest.main()
-    print(_list)
