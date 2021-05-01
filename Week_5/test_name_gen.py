@@ -8,22 +8,35 @@ first_name = name_gen.first_name_input()
 last_name = name_gen.last_name_input()
 
 class testCaseName(unittest.TestCase):
-    
+
+##Testing true and false input type    
     ## Testing to make sure that type is string
     def test_type(self):
-      self.assertTrue(type(first_name) is str)
-      self.assertTrue(type(last_name) is str)
+        self.assertTrue(type(first_name) is str)
+        self.assertTrue(type(last_name) is str)
+    ## This test will fail due to the wrong assertion
+    def test_type_fail(self):
+        self.assertFalse(type(first_name) is str)
+        self.assertFalse(type(last_name) is str)
 
+##Testing true and false string addition
     ## Testing the output is correct with the concantination
     def test_expected_output(self):
         full_name = name_gen.full_name(first_name, last_name)
         self.assertEqual(full_name, name_gen.full_name(first_name, last_name))
+    ##This test will fail as last name is forced first
+        full_name = name_gen.full_name(last_name, first_name)
+        self.assertEqual(full_name, name_gen.full_name(first_name, last_name))        
 
-    ##Testing to make sure that the string has actually been entered
+##Testing true and false entry of string
+    ## Testing to make sure that the string has actually been entered
     def test_length(self):
         full_name = name_gen.full_name(first_name, last_name)
         self.assertTrue(len(full_name) > 0)
-
+    ## Testing to make sure that nothing has been entered
+    def test_length(self):
+        full_name = name_gen.full_name(first_name, last_name)
+        self.assertTrue(len(full_name) == 0)
 
 
 if __name__ == '__main__':
