@@ -25,6 +25,7 @@ class testCaseName(unittest.TestCase):
         full_name = name_gen.full_name(first_name, last_name)
         self.assertEqual(full_name, name_gen.full_name(first_name, last_name))
     ##This test will fail as last name is forced first
+    def test_expected_output_fail(self):
         full_name = name_gen.full_name(last_name, first_name)
         self.assertEqual(full_name, name_gen.full_name(first_name, last_name))        
 
@@ -34,7 +35,7 @@ class testCaseName(unittest.TestCase):
         full_name = name_gen.full_name(first_name, last_name)
         self.assertTrue(len(full_name) > 0)
     ## Testing to make sure that nothing has been entered
-    def test_length(self):
+    def test_length_fail(self):
         full_name = name_gen.full_name(first_name, last_name)
         self.assertTrue(len(full_name) == 0)
 
