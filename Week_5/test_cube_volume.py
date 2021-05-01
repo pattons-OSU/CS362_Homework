@@ -2,7 +2,7 @@
 
 import unittest
 import cube_volume
-import math
+from math import *
 
 
 class testCaseVolume(unittest.TestCase):
