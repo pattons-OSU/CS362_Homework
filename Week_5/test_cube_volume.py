@@ -20,5 +20,9 @@ class testCaseVolume(unittest.TestCase):
             "A cube side length cannot be less than zero."
         )
 
+    ## Testing to see if the input is a type value of "int"
+    def test_type(self):
+      self.assertTrue(cube_volume.user_input is int)
+
 if __name__ == '__main__':
     unittest.main()
