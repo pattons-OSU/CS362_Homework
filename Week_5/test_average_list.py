@@ -4,7 +4,7 @@ import average_list
 import math
 import unittest
 
-class testCaseVolume(unittest.TestCase):
+class testCaseList(unittest.TestCase):
     
     ## This test should pass, making sure that the list is what we expect it to be
     def test_list_items(self):
