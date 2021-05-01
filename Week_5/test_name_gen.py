@@ -1,5 +1,15 @@
 #! python3
 
+## Simeon Patton
+## CS362 HW4 Question 3.2
+## April 30, 2021
+
+## Write code that generates a full name when you provide the first and
+## last name as inputs.
+
+## Use the unittest module and write any 3 tests that can test out your
+## code.
+
 import name_gen
 import unittest
 

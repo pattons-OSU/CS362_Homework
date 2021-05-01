@@ -1,5 +1,13 @@
 #! python3
 
+## Simeon Patton
+## CS362 HW4 Question 1.2
+## April 30, 2021
+
+## Write code to calculate the volume of a cube.
+## Use the unittest module and write any 3 tests that can test out your
+##code.
+
 import unittest
 import cube_volume
 from math import *

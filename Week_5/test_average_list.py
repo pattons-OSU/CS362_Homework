@@ -1,5 +1,13 @@
 #! python3
 
+## Simeon Patton
+## CS362 HW4 Question 2.2
+## April 30, 2021
+
+## Write code to calculate the average of elements in a list.
+## Use the unittest module and write any 3 tests that can test out your
+## code.
+
 import average_list
 import math
 import unittest
