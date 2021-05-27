@@ -25,6 +25,18 @@ def output():
     return fizz_buzz
 
 
+def user_input():
+    ## looking for user input
+    answer = input("\nWould you like to run the program? Y/N\n")
+    ## forcing input to be fist character lower
+    answer = answer[0].lower()
+    if answer == 'y':
+        output()
+    else:
+        print("\nPlease run program again\n")
+    return answer    
+
+
 if __name__ == '__main__':
-    output()
+    user_input()
     
