@@ -16,7 +16,11 @@ class testCaseVolume(unittest.TestCase):
     ## an integer and not a string
     def test_datatype(self):
         self.assertTrue(type(leapyear.user_input()) == int)
-    
+
+    ## Test to see if year check method is executing with no errors on
+    ## value type
+    def test_did_run(self):
+        self.assertTrue(leapyear.year_check, True)    
     
 if __name__ == '__main__':
     unittest.main()
